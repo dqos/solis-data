@@ -15,6 +15,7 @@ sudo python -m pip install pyserial
 sudo pip install minimalmodbus
 ```
 Then place solis.py anywhere you want, create a cron like: `*/5 * * * * python /root/solis.py`
+Finally adjust the code in solis.py, upload the PHP part to any webserver and start pushing data!
 
 ### Hardware
 Note that the COM input of Solis is proprietary, so I used some hacking to connect it, see the photos below.
