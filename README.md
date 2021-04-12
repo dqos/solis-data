@@ -20,11 +20,11 @@ Then place solis.py anywhere you want, create a cron like: `*/5 * * * * python /
 Note that the COM input of Solis is proprietary, so I used some hacking to connect it, see the photos below.
 
 ### Photos
-![complete.jpg](https://raw.githubusercontent.com/dqos/solis-data/main/photos/complete.jpg)
+![complete.jpg](https://raw.githubusercontent.com/dqos/solis-data/main/resources/complete.jpg)
 
-![connector.jpg](https://raw.githubusercontent.com/dqos/solis-data/main/photos/connector.jpg)
+![connector.jpg](https://raw.githubusercontent.com/dqos/solis-data/main/resources/connector.jpg)
 
-![specs.jpg](https://raw.githubusercontent.com/dqos/solis-data/main/photos/specs.jpg)
+![specs.jpg](https://raw.githubusercontent.com/dqos/solis-data/main/resources/specs.jpg)
 
 ### License
 MIT License
