@@ -1,6 +1,7 @@
 <?php
 
 if (isset($_POST)) {
+    if ($_SERVER['REMOTE_ADDR'] != 'IPHERE') die('No access...');
     if (!is_numeric($_POST['acw'])) die('Incomplete data received...');
     if (!is_numeric($_POST['dcv'])) die('Incomplete data received...');
     if (!is_numeric($_POST['dci'])) die('Incomplete data received...');

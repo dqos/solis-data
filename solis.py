@@ -41,7 +41,7 @@ try:
                 'alltime': str(AlltimeEnergy_KWH),
                 'today': str(Today_KWH)
         }
-        r = requests.post("https://canki.nl/solis/post.php", data=payload)
+        r = requests.post("https://webserver/solis/post.php", data=payload)
         print(r.text)
 
 except Exception, e:
